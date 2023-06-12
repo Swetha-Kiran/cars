@@ -1,0 +1,74 @@
+.div1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.price-div {
+    height: 100px;
+}
+
+
+.sub-div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    background-color: white;
+    margin: 30px auto 30px auto;
+}
+
+.car {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px 30px 30px 30px;
+    overflow: hidden;
+    text-align: left;
+    padding: 0 0px;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.info {
+    padding: 0 10px;
+    margin-top: 0;
+}
+
+.button-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button-car {
+    background-color: goldenrod;
+}
